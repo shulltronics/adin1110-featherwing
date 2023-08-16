@@ -347,7 +347,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "adafruit_feather_template.kicad_pro",
+    "filename": "adin1110-featherwing.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -379,9 +379,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR",
-        "nets": [
-          "VDD"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
@@ -399,12 +397,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB Data",
-        "nets": [
-          "/D+",
-          "/D-",
-          "/USB_D+",
-          "/USB_D-"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
