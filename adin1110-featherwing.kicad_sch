@@ -3317,9 +3317,33 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 29bca928-dbd5-4f4c-84d0-8a44c8196538)
   )
+  (text "REV\nmake sure 1->6 and 2->5 are connected with copper.\nShould probably alter footprint and symbol to achieve this."
+    (at 171.45 19.05 0)
+    (effects (font (size 1.27 1.27) (color 255 0 0 1)) (justify left bottom))
+    (uuid 68424070-802f-4369-9187-3d7188083252)
+  )
   (text "Feather Headers" (at 42.545 144.78 0)
     (effects (font (size 2.54 2.54) bold italic) (justify left bottom))
     (uuid 89229610-1752-4b98-8e65-f9d609e72d5d)
+  )
+  (text "REV\nTODO: Test all LED circuits and\ndetermine best resistance value."
+    (at 190.5 91.44 0)
+    (effects (font (size 1.27 1.27) (color 255 0 0 1)) (justify left bottom))
+    (uuid ac401621-bc1d-4171-bbf8-572e310ab1f6)
+  )
+  (text "REV\nuse smaller three pin screw terminal" (at 247.65 30.48 0)
+    (effects (font (size 1.27 1.27) (color 255 0 0 1)) (justify left bottom))
+    (uuid c76ca0b8-24a8-44bf-b8d0-81803acd49e5)
+  )
+  (text "REV\nDouble check footprint for pulse transformer..\nit seems slightly off"
+    (at 203.2 78.74 0)
+    (effects (font (size 1.27 1.27) (color 255 0 0 1)) (justify left bottom))
+    (uuid db267b83-f849-4d7b-bb01-a0f78403aa42)
+  )
+  (text "REV\nLINK_ST LED has different polarity than the others!"
+    (at 231.14 95.25 0)
+    (effects (font (size 1.27 1.27) (color 255 0 0 1)) (justify left bottom))
+    (uuid dd78a163-a380-4daa-a013-bb672347eff7)
   )
   (text "D3, D4, D5 (short header, pins 9, 8, 7)\nare hardwired by Particle Ethernet FW\nPin7 also used for CS by Adafruit Ethernet FW"
     (at 105.41 186.055 0)
